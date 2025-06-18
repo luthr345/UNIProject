@@ -2,6 +2,13 @@
   background-color: black;
   color: white;
 }
+.menu{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
 .header__logo{
  margin: 0;
  padding: 0;
@@ -10,10 +17,51 @@
  flex-wrap: wrap;
 }
 .header__menu{
- display: block;
- padding: 10px;
- margin: 5px;
- background-color: black;
- color: white;
- text-decoration: none;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu__button-menu{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu__item{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu__login-image{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu__phone-number{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu__password{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+}
+.menu__button-enter{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
 }
