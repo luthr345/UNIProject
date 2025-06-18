@@ -2,7 +2,6 @@
   background-color: black;
   color: white;
 }
-}
 .menu__item{
   display: inline-block;
   align-items: center;
@@ -26,3 +25,20 @@
  margin: 0;
 }
 
+.header__menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__menu .menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+.header__menu .menu__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
