@@ -10,10 +10,10 @@
  flex-wrap: wrap;
 }
 .menu__item{
-display: inline-block;
+display: block;
  padding: 10px;
  margin: 5px;
- background-color: rgb(95, 103, 110);
- color: rgb(255, 255, 255);
+ background-color: white;
+ color: gray;
  text-decoration: none;
 }
