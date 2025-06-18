@@ -24,11 +24,19 @@
 .header__title{
  margin: 0;
 }
-.menu_item {
-display: flex;
+.menu__item{
+display: inline-block;
  padding: 10px;
  margin: 5px;
- background-color: white;
- color: gray;
+ background-color: rgb(95, 103, 110);
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+}
+.menu{
+ display: block;
+ padding: 10px;
+ margin: 5px;
+ background-color: rgb(62, 120, 167);
+ color: rgb(255, 255, 255);
  text-decoration: none;
 }
