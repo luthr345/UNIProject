@@ -19,7 +19,7 @@
 }
 .header__logo-wrap{
  text-decoration: none;
- color: rgb(0, 80, 121);
+ color: white;
 }
 .header__title{
  margin: 0;
@@ -30,4 +30,12 @@
  list-style-type: none;
  display: flex;
  flex-wrap: wrap;
+}
+.menu__item{
+display: flex;
+ padding: 10px;
+ margin: 5px;
+ background-color: white;
+ color: gray;
+ text-decoration: none;
 }
