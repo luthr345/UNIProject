@@ -4,7 +4,7 @@
 }
 }
 .menu__item{
-  display: flex;
+  display: inline-block;
   align-items: center;
   padding: 10px;
   argin: 5px;
