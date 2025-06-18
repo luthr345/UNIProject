@@ -1,5 +1,5 @@
 .header{
-  background-color: gray;
+  background-color: orange;
   color: white;
 }
 }
@@ -28,7 +28,7 @@
  display: block;
  padding: 10px;
  margin: 5px;
- background-color: gray;
+ background-color: orange;
  color: white;
  text-decoration: none;
 }
