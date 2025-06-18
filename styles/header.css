@@ -2,12 +2,6 @@
   background-color: black;
   color: white;
 }
-.menu{
- margin: 0;
- padding: 0;
- list-style-type: none;
- display: flex;
- flex-wrap: wrap;
 }
 .menu__item{
 display: inline-block;
