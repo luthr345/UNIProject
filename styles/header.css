@@ -38,6 +38,7 @@
 }
 .header__menu .menu__item{
   display: flex;
+  background-color: black;
   align-items: center;
   justify-content: center;
   gap: 22px;
