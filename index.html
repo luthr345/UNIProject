@@ -7,67 +7,61 @@
 </head>
 <body>
     <header class="header">
-        <img src="imagies/logo.jpg" alt="Логотип" width="100" height="100">
-        <h1> Онлайн-школа Swansong</h1>
-        <nav>
-            <ul>
-                <button>Меню</button>
-                <form actio="/">
-                    <img src="imagies/login.png" alt="Картинка логина" width="50" height="50">
-                    <input type="tel" name="phone" placeholder="Номер телефона" required>
-                    <input type="password" name="password" placeholder="Пароль" required>
-                    <button>Войти</button>
+        <img class="header__logo" src="imagies/logo.jpg" alt="Логотип" width="100" height="100">
+        <h1 class="header__title"> Онлайн-школа Swansong</h1>
+        <nav class="header__menu">
+            <ul class="menu">
+                <button class="menu__button-menu">Меню</button>
+                <form class="menu__item" action="/">
+                    <img class="menu__login-image" src="imagies/login.png" alt="Картинка логина" width="75" height="75">
+                    <input class="menu__phone-number" type="tel" name="phone" placeholder="Номер телефона" required>
+                    <input class="menu__password" type="password" name="password" placeholder="Пароль" required>
+                    <button class="menu_button-enter">Войти</button>
             </ul>
         </nav>
-        <a href="login.html">Войти</a>
     </header>
     <main сlass="main">
-        <section>
-            <ul>
-                <img src="imagies/description.jpg" alt="Картинка описания" width="350" height="250">
-                <h3>Наша школа работает уже столько-то лет и имеет столько-то выпускниковю. Записывайтесь на уроки и овладейте английским в мастерстве!</h3>
-                <a href="#">О нас</a>
+        <section class="main__description">
+            <ul class="description">
+                <img class="description__description-image" src="imagies/description.jpg" alt="Картинка описания" width="350" height="250">
+                <h3 class="description__school-description">Наша школа работает уже столько-то лет и имеет столько-то выпускниковю. Записывайтесь на уроки и овладейте английским в мастерстве!</h3>
+                <a class="description__about-us" href="#">О нас</a>
             </ul>
         </section>
         <section>
-            <div>
-                <h2>Курсы иностранных языков для любого уровня</h2>
-                <a href="#" target="_blank">Все курсы</a>
+            <div class="allcourses">
+                <h2 class="allcourses__title">Курсы иностранных языков для любого уровня</h2>
+                <a class="allcourses__allcourses" href="#" target="_blank">Все курсы</a>
             </div>
-            <ul>
-                <li>
-                    <img src="imagies/LevelA1.png" alt="Уровень А1" width="75" height="50">
-                    <h3>Английский для начинающих</h3>
-                    <p>Длительно: 45 часов</p>
-                    <p>Модулей: 3</p>
-                    <a href="#">Узнать подробнее</a>
-                    <span>От 6 520 Р</span>
+            <ul class="courses">
+                <li class="courses__course-one">
+                    <img class="course-one_logo" src="imagies/LevelA1.png" alt="Уровень А1" width="75" height="50">
+                    <h3 class="course-one_title">Английский для начинающих</h3>
+                    <p class="course-one_duration">Длительно: 45 часов</p>
+                    <p class="course-one_modules">Модулей: 3</p>
+                    <a class="course-one_more" href="#">Узнать подробнее</a>
+                    <span class="course-one_price">От 6 520 Р</span>
                 </li>
-                <li>
-                    <img src="imagies/LevelA2.png" alt="Уровень А1" width="75" height="50">
-                    <h3>Английский для начинающих 2</h3>
-                    <p>Длительно: 45 часов</p>
-                    <p>Модулей: 3</p>
-                    <a href="#">Узнать подробнее</a>
-                    <span>От 6 520 Р</span>
+                <li class="courses__course-two">
+                    <img class="course-two_logo" src="imagies/LevelA2.png" alt="Уровень А1" width="75" height="50">
+                    <h3 class="course-two_title">Английский для начинающих 2</h3>
+                    <p class="course-two_duration">Длительно: 45 часов</p>
+                    <p class="course-two_modules">Модулей: 3</p>
+                    <a class="course-two_more" href="#">Узнать подробнее</a>
+                    <span class="course-two_price">От 6 520 Р</span>
                 </li>
             </ul>
         </section>
         <section>
-            <ul>
-                <img src="imagies/reviewer.png" alt="Отзыв" width="100" height="100">
-                <h3>Лучшая школа. Лучшие учителя. Лучшие цены. Всем советую!</h3>
-                <a href="#">Все отзывы</a>
+            <ul class="reviews">
+                <img class="reviews__reviewer-image" src="imagies/reviewer.png" alt="Отзыв" width="100" height="100">
+                <h3 class="reviews__description">Лучшая школа. Лучшие учителя. Лучшие цены. Всем советую!</h3>
+                <a class="reviews__all-reviews" href="#">Все отзывы</a>
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <p>Сайт создан Лебедевым Евгением (ЛВ-41), Лавровой Ксенией (АН-23)</p>
-        <ul>
-            <li><a href="#">Правовая оговорка</a></li>
-            <li><a href="#">Пользовательское соглашение</a></li>
-            <li><a href="#">Политика конфидециальности</a></li>
-        </ul>
+        <p class="footer__creators">Сайт создан Лебедевым Евгением (ЛВ-41), Лавровой Ксенией (АН-23)</p>
     </footer>
 </body>
 </html>
