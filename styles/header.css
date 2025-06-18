@@ -24,7 +24,7 @@
 .header__title{
  margin: 0;
 }
-.menu {
+.menu_item {
 display: flex;
  padding: 10px;
  margin: 5px;
